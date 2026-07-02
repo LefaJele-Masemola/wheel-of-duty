@@ -1,0 +1,1 @@
+node_modules\n.git\n.gitignore\nREADME.md\nDEPLOYMENT.md\n.env.local\n.env.*.local\n*.log\n.DS_Store\n.vscode\n.idea\n

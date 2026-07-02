@@ -1,0 +1,1 @@
+{\n  \"buildCommand\": \"npm run build\",\n  \"devCommand\": \"npm run dev\",\n  \"installCommand\": \"npm install\",\n  \"framework\": \"vite\",\n  \"name\": \"wheel-of-duty\",\n  \"public\": true,\n  \"rewrites\": [\n    {\n      \"source\": \"/(.*)\",\n      \"destination\": \"/index.html\"\n    }\n  ]\n}\n

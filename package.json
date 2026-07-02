@@ -1,13 +1,14 @@
 {
-  "name": "team-duty-picker",
-  "private": true,
-  "version": "0.0.0",
+  "name": "wheel-of-duty",
+  "description": "Team duty rotation wheel app - fair and fun duty assignments",
+  "version": "1.0.0",
   "type": "module",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",
