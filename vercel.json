@@ -3,12 +3,16 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build"
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ],
   "routes": [
-    { "src": "/assets/(.*)", "dest": "/assets/$1", "headers": { "Cache-Control": "public, immutable, max-age=31536000" }},
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/favicon.svg", "dest": "/favicon.svg" },
+    { "src": "/icons.svg", "dest": "/icons.svg" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
