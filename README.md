@@ -56,6 +56,29 @@ The app will run at `http://localhost:5173`
 npm run build
 ```
 
+## 🚀 Deploy to All Devices
+
+**Make it live on Mac, Windows, iPhone, and Android!**
+
+### Quickest Method: Vercel (Recommended)
+
+See [QUICK_DEPLOY.md](./QUICK_DEPLOY.md) for 3-step setup or [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed guide.
+
+In short:
+1. Create GitHub repository
+2. Push code: `git push origin main`
+3. Deploy to Vercel: https://vercel.com/new
+4. Get instant live URL ✨
+
+**Everyone can use it immediately from any device!**
+```
+The app will run at `http://localhost:5173`
+
+### Build for Production
+```bash
+npm run build
+```
+
 ## Technical Stack
 
 - **React 18** - UI framework
