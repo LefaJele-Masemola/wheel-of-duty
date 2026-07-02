@@ -10,7 +10,5 @@ QUICK_DEPLOY.md
 .DS_Store
 .vscode
 .idea
-src/
-vite.config.js
-eslint.config.js
-package-lock.json
+.vscode/
+.vercel
