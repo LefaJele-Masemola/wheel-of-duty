@@ -1,1 +1,16 @@
-node_modules\n.git\n.gitignore\nREADME.md\nDEPLOYMENT.md\n.env.local\n.env.*.local\n*.log\n.DS_Store\n.vscode\n.idea\n
+node_modules
+.git
+.gitignore
+README.md
+DEPLOYMENT.md
+QUICK_DEPLOY.md
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode
+.idea
+src/
+vite.config.js
+eslint.config.js
+package-lock.json
